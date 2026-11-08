@@ -16,11 +16,11 @@ int main()
     // Step 2: Write feedback into the file
     fprintf(fp, "About the C Programming Feedback\n");
 
-    fprintf(fp, "1. C programming is easy to understand.\n");
-    fprintf(fp, "2. The teaching method is good.\n");
-    fprintf(fp, "3. Practical examples are helpful.\n");
+    fprintf(fp, "1. Learned the basics of C programming easily.\n");
+    fprintf(fp, "2.Gained confidence in writing C programs.\n");
+    fprintf(fp, "3. C programming concepts were explained clearly.\n");
     fprintf(fp, "4. File handling is an interesting topic.\n");
-    fprintf(fp, "5. I would like to learn more programs.\n");
+    fprintf(fp, "5. C is used to develop software and applications.\n");
 
     // Step 3: Close the file
     fclose(fp);
@@ -36,8 +36,11 @@ int main()
 
     // Step 5: Add additional feedback
     fprintf(fp, "\nOwn Feedback\n");
-    fprintf(fp, "Sir, your teaching is very helpful.\n");
+    fprintf(fp, "The trainer helped us improve our problem-solving skills.\n");
     fprintf(fp, "I understand C programming better.\n");
+    fprintf(fp, "The trainer explained C programming concepts clearly.\n");
+    fprintf(fp,"The trainer explained programs with real-time examples.\n");
+    fprintf( fp,"The trainer helped us improve our problem-solving skills.\n");
 
     // Step 6: Close the file
     fclose(fp);
